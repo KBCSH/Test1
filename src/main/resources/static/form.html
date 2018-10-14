@@ -23,6 +23,9 @@
       <li class="nav-item">
         <a class="nav-link" href="/form.html">회원가입</a>
       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="/list.html">리스트 목록</a>
+      </li>
     
       <li class="nav-item">
         <a class="nav-link disabled" href="#">Disabled</a>
@@ -34,6 +37,30 @@
     </form>
   </div>
 </nav>
+<form action="/create" method="post">
+<div class="container">
+<div class="form-group">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="text" class="form-control" id="name" name="name" aria-describedby="exampleName" placeholder="Enter Name">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your Name with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">userId</label>
+    <input type="text" class="form-control" id="userId" name="userId" placeholder="userId">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" name="password" placeholder="Password">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
